@@ -1,0 +1,29 @@
+{
+  "itemId" : "_MDGqUCflEe-IMPrUMjlL7w",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_GhGl4CfbEe-IMPrUMjlL7w",
+    "parameterList" : [ {
+      "id" : "_Ghj45SfbEe-IMPrUMjlL7w",
+      "name" : "postgre_local_AdditionalParams"
+    }, {
+      "id" : "_Ghj45yfbEe-IMPrUMjlL7w",
+      "name" : "postgre_local_Database"
+    }, {
+      "id" : "_Ghj44SfbEe-IMPrUMjlL7w",
+      "name" : "postgre_local_Login"
+    }, {
+      "id" : "_Ghj45CfbEe-IMPrUMjlL7w",
+      "name" : "postgre_local_Password"
+    }, {
+      "id" : "_Ghj45ifbEe-IMPrUMjlL7w",
+      "name" : "postgre_local_Port"
+    }, {
+      "id" : "_Ghj44yfbEe-IMPrUMjlL7w",
+      "name" : "postgre_local_Schema"
+    }, {
+      "id" : "_Ghj44ifbEe-IMPrUMjlL7w",
+      "name" : "postgre_local_Server"
+    } ]
+  } ]
+}
