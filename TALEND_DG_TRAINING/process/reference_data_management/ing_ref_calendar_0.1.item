@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" internalId="_3S-lISf2Ee-IMPrUMjlL7w" name="is_new_table" prompt="is_new_table?" promptNeeded="true" repositoryContextId="built-in" type="id_Boolean" value=""/>
-    <contextParameter comment="" internalId="_3S-lICf2Ee-IMPrUMjlL7w" name="tbl_name" prompt="tbl_name?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_A6wMICgBEe-Rfedq7Bw6Mg" name="postgre_local_AdditionalParams" prompt="postgre_local_AdditionalParams?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_A6wMISgBEe-Rfedq7Bw6Mg" name="postgre_local_Database" prompt="postgre_local_Database?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value="postgres"/>
-    <contextParameter comment="" internalId="_A6wMIigBEe-Rfedq7Bw6Mg" name="postgre_local_Login" prompt="postgre_local_Login?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value="postgres"/>
-    <contextParameter comment="" internalId="_A6wMIygBEe-Rfedq7Bw6Mg" name="postgre_local_Password" prompt="postgre_local_Password?" promptNeeded="true" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_Password" value="enc:system.encryption.key.v1:enVGxGczyX+tGxndyOLQzh2Sqeo+Kwi3y78nafPKqZVbrOqtKg=="/>
-    <contextParameter comment="" internalId="_A6wMJCgBEe-Rfedq7Bw6Mg" name="postgre_local_Port" prompt="postgre_local_Port?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value="5432"/>
-    <contextParameter comment="" internalId="_A6wMJSgBEe-Rfedq7Bw6Mg" name="postgre_local_Schema" prompt="postgre_local_Schema?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value="public"/>
-    <contextParameter comment="" internalId="_A6wMJigBEe-Rfedq7Bw6Mg" name="postgre_local_Server" prompt="postgre_local_Server?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value="localhost"/>
-    <contextParameter comment="" internalId="_A6wMJygBEe-Rfedq7Bw6Mg" name="postgre_refdata_Schema" prompt="postgre_refdata_Schema?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value="ref_data"/>
+    <contextParameter comment="" internalId="_SGqG8CiPEe-BfJfwLrMGUA" name="is_new_table" prompt="is_new_table?" promptNeeded="true" repositoryContextId="built-in" type="id_Boolean" value=""/>
+    <contextParameter comment="" internalId="_SGqG8SiPEe-BfJfwLrMGUA" name="tbl_name" prompt="tbl_name?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_M-6PMCh9Ee-3ftpotanGRQ" name="postgre_local_AdditionalParams" prompt="postgre_local_AdditionalParams?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_M-6PMSh9Ee-3ftpotanGRQ" name="postgre_local_Database" prompt="postgre_local_Database?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value="postgres"/>
+    <contextParameter comment="" internalId="_M-6PMih9Ee-3ftpotanGRQ" name="postgre_local_Login" prompt="postgre_local_Login?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value="postgres"/>
+    <contextParameter comment="" internalId="_M-6PMyh9Ee-3ftpotanGRQ" name="postgre_local_Password" prompt="postgre_local_Password?" promptNeeded="true" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_Password" value="enc:system.encryption.key.v1:TzKhVXNc1j7Ow0xnA9Xb4fJgEJitbgSEjRUZbIGyGYcwMfK/0w=="/>
+    <contextParameter comment="" internalId="_M-6PNCh9Ee-3ftpotanGRQ" name="postgre_local_Port" prompt="postgre_local_Port?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_M-6PNSh9Ee-3ftpotanGRQ" name="postgre_local_Schema" prompt="postgre_local_Schema?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value="public"/>
+    <contextParameter comment="" internalId="_M-6PNih9Ee-3ftpotanGRQ" name="postgre_local_Server" prompt="postgre_local_Server?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value="localhost"/>
+    <contextParameter comment="" internalId="_M-6PNyh9Ee-3ftpotanGRQ" name="postgre_refdata_Schema" prompt="postgre_refdata_Schema?" promptNeeded="false" repositoryContextId="_GhGl4CfbEe-IMPrUMjlL7w" type="id_String" value="ref_data"/>
   </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" show="false" value="true"/>
@@ -124,7 +124,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.postgre_local_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.postgre_local_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.postgre_local_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:fOUOlBSwXtlTBo/bCTwtVrnPHA9oOWEMCbTWpdukdlgnj8zscJGe7fziU8XN80BNPNmim953aeIecA=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:sEA1rrBkyZesHekw9uEplV5FC1AD4KFVNf9UnWs3nxVrwrcaG+Rytj689NGuKn2k7+Pv5TlIiTQ/4w=="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
@@ -148,65 +148,50 @@
     <elementParameter field="TEXT" name="LABEL" value="cls_pg_ref_data"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="640">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
-    <elementParameter field="CHECK" name="USE_EXISTING_DYNAMIC" value="false"/>
-    <elementParameter field="COMPONENT_LIST" name="DYNAMIC" show="false" value=""/>
-    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Kearllan Del Castill/Documents/PROJECTS/dataset/&quot;+ context.tbl_name +&quot;.csv&quot;"/>
-    <elementParameter field="CHECK" name="CSV_OPTION" value="true"/>
-    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
-    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;"/>
-    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;&quot;&quot;"/>
-    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;&quot;&quot;"/>
-    <elementParameter field="TEXT" name="HEADER" value="1"/>
-    <elementParameter field="TEXT" name="FOOTER" value="0"/>
-    <elementParameter field="TEXT" name="LIMIT" value=""/>
-    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
-    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
-    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
-    <elementParameter field="DIRECTORY" name="TEMP_DIR" show="false" value="&quot;C:/Program Files (x86)/Talend-Studio/studio/workspace&quot;"/>
-    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
-    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
-    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
-    <elementParameter field="CHECK" name="RANDOM" show="false" value="false"/>
-    <elementParameter field="TEXT" name="NB_RANDOM" show="false" value="10"/>
-    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
-    <elementParameter field="TABLE" name="TRIMSELECT">
-      <elementValue elementRef="SCHEMA_COLUMN" value="dyna_col"/>
-      <elementValue elementRef="TRIM" value="false"/>
-    </elementParameter>
-    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
-    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
-    <elementParameter field="CHECK" name="SPLITRECORD" show="false" value="false"/>
-    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
-    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="dyna_col"/>
-      <elementValue elementRef="DECODE" value="false"/>
-    </elementParameter>
-    <elementParameter field="TEXT" name="DESTINATION" show="false" value=""/>
-    <elementParameter field="CHECK" name="USE_HEADER_AS_IS" value="false"/>
-    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
-    <elementParameter field="TEXT" name="LABEL" value="in_CSV"/>
+  <node componentName="tLoop" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLoop_1"/>
+    <elementParameter field="RADIO" name="FORLOOP" value="false"/>
+    <elementParameter field="RADIO" name="WHILELOOP" value="true"/>
+    <elementParameter field="TEXT" name="FROM" show="false" value="1"/>
+    <elementParameter field="TEXT" name="TO" show="false" value="10"/>
+    <elementParameter field="TEXT" name="STEP" show="false" value="1"/>
+    <elementParameter field="CHECK" name="INCREASE" show="false" value="true"/>
+    <elementParameter field="TEXT" name="DECLARATION" value="int i = 1"/>
+    <elementParameter field="TEXT" name="CONDITION" value="i &lt;= TalendDate.getPartOfDate(&quot;DAY_OF_MONTH&quot;, TalendDate.getLastDayOfMonth(TalendDate.parseDate(&quot;yyyy-MM-dd&quot;, &quot;2025&quot;+&quot;-&quot; + &quot;01&quot; + &quot;-01&quot;)))"/>
+    <elementParameter field="TEXT" name="ITERATION" value="i++"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tFileInputDelimited_1">
-      <column comment="" key="false" length="-1" name="dyna_col" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Dynamic" usefulColumn="true"/>
-    </metadata>
-    <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="-1" name="dyna_col" nullable="true" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Dynamic" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
-      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+  </node>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="280" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+    <elementParameter field="TABLE" name="VALUES">
+      <elementValue elementRef="SCHEMA_COLUMN" value="date"/>
+      <elementValue elementRef="VALUE" value="TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i)))"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="day_of_week"/>
+      <elementValue elementRef="VALUE" value="((TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 1 ? &quot;SUNDAY&quot; : (TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 2 ? &quot;MONDAY&quot; : (TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 3 ? &quot;TUESDAY&quot; : (TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 4 ? &quot;WEDNESDAY&quot; : (TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 5 ? &quot;THURSDAY&quot; : (TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 6 ? &quot;FRIDAY&quot; : (TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 7 ? &quot;SATURDAY&quot; : &quot;INVALID&quot;)"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="is_holiday"/>
+      <elementValue elementRef="VALUE" value="false"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+    <elementParameter field="TABLE" name="INTABLE" show="false"/>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" show="false" value=""/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFixedFlowInput_1">
+      <column comment="" key="false" length="-1" name="date" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="day_of_week" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="is_holiday" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="280" posY="640">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="440" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
     <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
-    <elementParameter field="IMAGE" name="PREVIEW" value="_MDGqUCflEe-IMPrUMjlL7w-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_8hGs4ChkEe-3ftpotanGRQ-tMap_1-PREVIEW.bmp"/>
     <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
     <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
     <elementParameter field="TEXT" name="LEVENSHTEIN" show="false" value="0"/>
@@ -214,23 +199,28 @@
     <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
     <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
     <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
-    <elementParameter field="TEXT" name="LABEL" value="map"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="out">
-      <column comment="" key="false" length="-1" name="dyna_col" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="" type="id_Dynamic" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="date" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="day_of_week" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="is_holiday" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
-      <uiProperties/>
+      <uiProperties shellMaximized="true"/>
       <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
       <outputTables name="out" sizeState="INTERMEDIATE">
-        <mapperTableEntries expression="row1.dyna_col " name="dyna_col" nullable="true" type="id_Dynamic"/>
+        <mapperTableEntries expression="row1.date " name="date" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="row1.day_of_week " name="day_of_week" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.is_holiday " name="is_holiday" nullable="true" type="id_Boolean"/>
       </outputTables>
       <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
-        <mapperTableEntries name="dyna_col" nullable="true" type="id_Dynamic"/>
+        <mapperTableEntries name="date" nullable="true" type="id_Date"/>
+        <mapperTableEntries name="day_of_week" nullable="true" type="id_String"/>
+        <mapperTableEntries name="is_holiday" nullable="true" type="id_Boolean"/>
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="440" posY="640">
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="600" posY="640">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBOutput_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
@@ -241,8 +231,8 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="PostgreSQL"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:qgngpxNJJAD9NwDAzcyMo7wNA15HyxomNkT/ObaE"/>
-    <elementParameter field="DBTABLE" name="TABLE" value="context.tbl_name"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:KEBTW6XCVRGvp1M5GrNsHM4V+lthdGO2rHfi9Vme"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;ref_calendar&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
     <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
     <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" show="false" value="false"/>
@@ -263,7 +253,17 @@
     <elementParameter field="TABLE" name="ADD_COLS"/>
     <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
     <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
-      <elementValue elementRef="SCHEMA_COLUMN" value="dyna_col"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="date"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="day_of_week"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="is_holiday"/>
       <elementValue elementRef="UPDATE_KEY" value="false"/>
       <elementValue elementRef="DELETE_KEY" value="false"/>
       <elementValue elementRef="UPDATABLE" value="true"/>
@@ -273,17 +273,36 @@
     <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
     <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_LOWERCASE" value="false"/>
     <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
-    <elementParameter field="TEXT" name="BATCH_SIZE" value="100000"/>
-    <elementParameter field="TEXT" name="LABEL" value="out_table"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDBOutput_1">
-      <column comment="" key="false" length="-1" name="dyna_col" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" type="id_Dynamic" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="date" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="day_of_week" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="is_holiday" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="-1" name="dyna_col" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="" type="id_Dynamic" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="date" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd&quot;" precision="-1" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="day_of_week" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="is_holiday" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_Boolean" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
     </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="600" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(i);&#10;&#10;System.out.println(TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))));&#10;&#10;&#10;System.out.println(((TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 1 ? &quot;SUNDAY&quot; : (TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 2 ? &quot;MONDAY&quot; : (TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 3 ? &quot;TUESDAY&quot; : (TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 4 ? &quot;WEDNESDAY&quot; : (TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 5 ? &quot;THURSDAY&quot; : (TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 6 ? &quot;FRIDAY&quot; : (TalendDate.getPartOfDate(&quot;DAY_OF_WEEK&quot;, TalendDate.parseDate(&quot;yyyy-MM-dd&quot;,&quot;2025&quot; + &quot;-&quot; + &quot;01&quot; + &quot;-&quot; + (i &lt;= 9 ? &quot;0&quot;+String.valueOf(i) : String.valueOf(i))))) == 7 ? &quot;SATURDAY&quot; : &quot;INVALID&quot;));"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="120" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value=""/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Start"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
   </node>
   <node componentName="tSQLScriptParser" componentVersion="1.7" offsetLabelX="0" offsetLabelY="0" posX="280" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSQLScriptParser_1"/>
@@ -299,7 +318,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="440" posY="480">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBRow_1"/>
     <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tDBConnection_1"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="V9_X"/>
@@ -309,7 +328,7 @@
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="PostgreSQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:YXtBnpPK1eTJDck2VbjiA8O31eSr68d7U14YxGAO"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:AbGFmgnxR7gLuJBfzjCcad+tV+UC//fYhyEeqoTY"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -329,19 +348,11 @@
     <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
     <elementParameter field="TEXT" name="LABEL" value="row_DDL"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tDBRow_2"/>
+    <metadata connector="FLOW" name="tDBRow_1"/>
     <metadata connector="REJECT" name="REJECT">
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
-  </node>
-  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="120" posY="480">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value=""/>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
-    <elementParameter field="TEXT" name="LABEL" value="Start"/>
-    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
-    <metadata connector="FLOW" name="tJava_1"/>
   </node>
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="tDBConnection_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
@@ -349,7 +360,12 @@
   <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tDBClose_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
   </connection>
-  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tMap_1">
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tLoop_1" offsetLabelX="0" offsetLabelY="0" source="tLoop_1" target="tFixedFlowInput_1">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate1"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tMap_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
   </connection>
@@ -357,23 +373,23 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out"/>
   </connection>
-  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tSQLScriptParser_1" offsetLabelX="0" offsetLabelY="0" source="tSQLScriptParser_1" target="tDBRow_2">
-    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
-    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate1"/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tFileInputDelimited_1">
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
-  </connection>
   <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tSQLScriptParser_1">
     <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.is_new_table == true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tLoop_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="ITERATE" label="Iterate" lineStyle="7" metaname="tSQLScriptParser_1" offsetLabelX="0" offsetLabelY="0" source="tSQLScriptParser_1" target="tDBRow_1">
+    <elementParameter field="CHECK" name="ENABLE_PARALLEL" value="false"/>
+    <elementParameter field="TEXT" name="NUMBER_PARALLEL" show="false" value="2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="iterate2"/>
   </connection>
   <subjob>
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;128;64"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBConnection_1"/>
@@ -384,7 +400,7 @@
     <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" show="false" value="true"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;128;64"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDBClose_1"/>
@@ -392,31 +408,32 @@
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
-    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="CSV TO POSTGRE"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="128;255;255"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLoop_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
-    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSQLScriptParser_1"/>
-    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="CREATE TABLE"/>
-    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="0;0;0"/>
-    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="128;255;128"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f3a44213-6cdb-44f0-ab29-426457590cd9"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4oZfBbgQoyXj7oPXW+1ciDlevcpVoIVQoLEy+zy52WZ/vTbdSgjlvOiLqgLXYLkE+QgQwsoTVbTa&#13;
-VThoU//0LA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4f35a5f0-fad9-4bc6-9f8f-7655abb1a3c9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>VvWTMtZlb0mKJLGYnRUK13Um8XkawXoN7PVBu57/ubGx0/woYv9Fgs7mZ5qcLN4lp7g1Kh2h03Ca&#13;
-hhy4CVKSBg==</DigestValue></Reference></SignedInfo><SignatureValue>XUR4Xd+eEbgXnaiENovq0371M0DQm2eeWQwGOQOUbSg+XZ+wZPZLhfuiHHrNfjcy3qyCIQAvidlj&#13;
-Tg2bWsafOwnbmq+XCATexYb2kJTTB6ZZtAnQY5qOZHM/xXA77FAGL69IcfyG5l7z5k2EAytkaVEQ&#13;
-xx1E/RmwVfZME9NVbq/Pph9RkMutaG0KQK9jyRyWrkE4JATaATgwM0LxzewkWl9HsTU/6cPsLFMB&#13;
-xNw2DDYQC0gZY+FfZNRlI457SyyG7Gqm3EUZ6fRO9LpIR4UCB+farBjUksZ8XBbRQeDbfu/TWO1h&#13;
-tS3RELUKbKcUB5Df6Ml4ota2vH74ar069TLCew==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSQLScriptParser_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a32c6fb0-e1a0-46e3-9f45-a201741d62f7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4HAVuNIKzTpjxH5Di5mcyBrXO1E1vnMNrbHc9t8bcN81jwEOwikk/Q80R78/8w1rdYuX/vVvD9u2&#13;
+KhECAcyinQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9a7bf249-85ae-467c-abeb-76b1694e2e3a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>k0BuLYQCSu5ieDWn6/QzmxDx144VtHF0wlssWvEjm7JlRawBIsaIDDX7af330LzR7LjopOHUVi0G&#13;
+oQWm3SNImw==</DigestValue></Reference></SignedInfo><SignatureValue>laZnqpvBxO6IZiGV1oFpdnBRX7q2OvwE4JwjiuMe76XDdiskQDtuZyBgeaaTCNf2b6Rj9sEys+Cp&#13;
+gtRnZrg8p5mNNrJF1llVx4+8LL+iy6k/RKlZutDpj2IejFwFLaoPs+ZstLzxh1ARPHJroo5X9Q4O&#13;
+6e7UvqSUqpsi9DdekCnqHNotqOI0MHYj0a1Brmmp6OU38FPHklzzHVfvz6EZ/Pxo3rmbz7vmwn4D&#13;
+J5tdUrjkegrn7+uGomMjKsmQzHGeacdIyJivc4+i3EP/4oDZBeMRuwAiH832jlYECWCt7dO935Qa&#13;
+05+UE86SIXB0Qxw5NRa0GXSKnWVppbYBaFMTbw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -438,4 +455,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4f35a5f0-fad9-4bc6-9f8f-7655abb1a3c9" Target="#_f3a44213-6cdb-44f0-ab29-426457590cd9"><Timestamp>2024-06-12 07:51:17</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9a7bf249-85ae-467c-abeb-76b1694e2e3a" Target="#_a32c6fb0-e1a0-46e3-9f45-a201741d62f7"><Timestamp>2024-06-12 07:53:50</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
