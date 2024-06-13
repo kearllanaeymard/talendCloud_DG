@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" hide="false" name="Default">
-    <contextParameter comment="" internalId="_SGqG8CiPEe-BfJfwLrMGUA" name="is_new_table" prompt="is_new_table?" promptNeeded="true" repositoryContextId="built-in" type="id_Boolean" value=""/>
+    <contextParameter comment="" internalId="_eMXRcCl0Ee-7eb4s3wXzNg" name="is_new_table" prompt="is_new_table?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_SGqG8SiPEe-BfJfwLrMGUA" name="tbl_name" prompt="tbl_name?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="ref_calendar"/>
+    <contextParameter comment="" internalId="_K2-KECl0Ee-7eb4s3wXzNg" name="file_path" prompt="file_path?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="C:/Users/Kearllan Del Castill/Documents/PROJECTS/Data_Governance/"/>
     <contextParameter comment="" internalId="_d33xUCk2Ee-7eb4s3wXzNg" name="year" prompt="year?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_POFuYCk_Ee-7eb4s3wXzNg" name="holiday_name" prompt="holiday_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
     <contextParameter comment="" internalId="_POFuYSk_Ee-7eb4s3wXzNg" name="holiday_date" prompt="holiday_date?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
@@ -162,7 +163,7 @@
   <node componentName="tSQLScriptParser" componentVersion="1.7" offsetLabelX="0" offsetLabelY="0" posX="280" posY="480">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSQLScriptParser_1"/>
     <elementParameter field="CHECK" name="READ_FROM_FILE" value="true"/>
-    <elementParameter field="FILE" name="SCRIPT_FILE" value="&quot;C:/Users/Kearllan Del Castill/Documents/PROJECTS/DDL/&quot;+ context.tbl_name +&quot;.sql&quot;"/>
+    <elementParameter field="FILE" name="SCRIPT_FILE" value="context.file_path + &quot;DDL/&quot;+ context.tbl_name +&quot;.sql&quot;"/>
     <elementParameter field="TEXT" name="FILE_ENCODING" value="&quot;UTF-8&quot;"/>
     <elementParameter field="MEMO_SQL" name="SQL_SCRIPT" show="false" value="&quot;update mytable set somefield=1; call my_procedure();&quot;"/>
     <elementParameter field="CHECK" name="REMOVE_COMMENTS" value="true"/>
@@ -365,7 +366,7 @@
   <node componentName="tFileInputExcel" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="120" posY="800">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputExcel_1"/>
     <elementParameter field="CHECK" name="VERSION_2007" value="true"/>
-    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/Kearllan Del Castill/Documents/PROJECTS/Templates/&quot;+ context.tbl_name +&quot;_&quot;+ context.year +&quot;.xlsx&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.file_path + &quot;Templates/&quot;+ context.tbl_name +&quot;_&quot;+ context.year +&quot;.xlsx&quot;"/>
     <elementParameter field="PASSWORD" name="PASSWORD" value="enc:system.encryption.key.v1:QEv/kHA7OWlqxbTL1DMK0LPJpt97GrMRPI2ZF4gs"/>
     <elementParameter field="CHECK" name="ALL_SHEETS" value="false"/>
     <elementParameter field="TABLE" name="SHEETLIST">
@@ -611,13 +612,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="0;0;0"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="247;247;247"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b783ea5f-4780-46d2-ac92-b988085016d7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UMKRU+7QF/Oef9GQxrY9DECsobRTXGGCHdIq4E30uopap13HwWseNn8hTz6YgeeIxrhro9m8Qr0I&#13;
-U7C8ocScyQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_cfc7b08e-e345-4f5a-895c-8c1e1bbb1aae"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KvS3jSKvVftwx/2FGIBmHoE5tArljNSE03Xt0sQa2FKhAuAI4UFTlaik8gdXQh/gRZrMp39ko/9G&#13;
-wuLqfb2nQg==</DigestValue></Reference></SignedInfo><SignatureValue>EImlsnb+tNk5G+XxMPqhJ5S/r1bD5cZ7/hEs/6IPGALCuOR4HLus7Lnmp4brTo7NiPcK1GWo+4/E&#13;
-G1NslNrI1kB/5m4yBxhL4IDAmgfBSZ52ge3fAJURBiE6QrPXQO2w2gFtqaTBMsHXbveh3WSFcIxe&#13;
-LnJ3dC9td3ozn9LtkfOt5ZSXB5a1sCDZuG/B1gk/L71HaLiXgSbHCYdlvTgHIDsKIeliPGrbhhvZ&#13;
-agmPw8X86fKFEJ/jYHb6wZT8JNorVOZm0UtUpvuEp6HbLTkrZSYDJRKYFSasljAH7gAI/E0CsuL8&#13;
-KVQM0WSWHPDYk+cey77AGZYyZmM4Yn/zLOe4fw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_edb95c8b-88ee-4e8f-93c1-1576a912f337"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>cInhqymKOwdK1uwzL4xXZW2StzvKojShNEF/2zVhncM718uRAmib9x4m/4ZQJo4udsnxR4H476Yr&#13;
+HGvfBe5ncA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9351d981-2044-4c07-a823-5e7e73d0d4a7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RPBTXvzELvXpHzkROX5Mo7EF7COt3ph8mlxWDl9/AsOXJZB9L3CE73AD0qnLjHcI33w89NrwOjry&#13;
+eEGdiBSOHg==</DigestValue></Reference></SignedInfo><SignatureValue>D7r1QbGXu16RShn6/dvLXlvliIAdfYlH3OdRMf2DcS96xrea+lYzFUYgC1q3nS+Tee75kfIoH+K6&#13;
+vk7qnZZT9tsjrr/VBdIzIs4wfjY5JboGPScONDv3GAVDsR6tLS0+wPplaFTgCL+mAAFmfEIP97iy&#13;
+uSCCEzc7tDXqr2496Y4n4pwM7QP/UFkFzX4wupijGo1EVAoRLzSFaQVY5HvjSLlN2JsgHWpKq+Jy&#13;
+KIWCGu6q793hvvePylWljrrSdN6kBBOi/J6KTOBMkpLK18Dv/d7k10crM8q/73oVZEVMa7IisZyd&#13;
+oCZWLmTU7KaT9NEqTBl9diKCSKhoiLgKESW9/Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -639,4 +640,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_cfc7b08e-e345-4f5a-895c-8c1e1bbb1aae" Target="#_b783ea5f-4780-46d2-ac92-b988085016d7"><Timestamp>2024-06-13 05:54:51</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9351d981-2044-4c07-a823-5e7e73d0d4a7" Target="#_edb95c8b-88ee-4e8f-93c1-1576a912f337"><Timestamp>2024-06-13 11:02:49</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
